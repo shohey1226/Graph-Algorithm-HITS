@@ -1,7 +1,8 @@
 /Graph-Algorithm-HITS-*
 /.build
 /_build*
-/local
+local/
+.carton/
 /Build
 MYMETA.*
 !META.json
