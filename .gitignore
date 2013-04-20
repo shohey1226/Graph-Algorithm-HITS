@@ -1,0 +1,6 @@
+/Graph-Algorithm-HITS-*
+/.build
+/_build*
+/Build
+MYMETA.*
+!META.json
