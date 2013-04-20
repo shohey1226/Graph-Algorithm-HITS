@@ -1,5 +1,5 @@
 {
-   "abstract" : "Blah blah blah",
+   "abstract" : "Anothor HITS algorithm implementation loading L<Graph>",
    "author" : [
       "Shohei Kameda <shoheik@cpan.org>"
    ],
@@ -36,6 +36,9 @@
       },
       "runtime" : {
          "requires" : {
+            "Graph" : "0.94",
+            "Moo" : "1.001000",
+            "PDL" : "2.006",
             "perl" : "5.008005"
          }
       },
@@ -46,6 +49,17 @@
       }
    },
    "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/shoheik/Graph-Algorithm-HITS/issues"
+      },
+      "homepage" : "https://github.com/shoheik/Graph-Algorithm-HITS",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/shoheik/Graph-Algorithm-HITS.git",
+         "web" : "https://github.com/shoheik/Graph-Algorithm-HITS"
+      }
+   },
    "version" : "0.01"
 }
 
