@@ -100,7 +100,7 @@ sub get_authority {
     my $ref = unpdl $self->auth_matrix;
     my %result;
     for my $v (sort $self->graph->vertices) {
-        $result{$v} = shift shift $ref;
+        $result{$v} = shift @{ shift @$ref };
     }
     return \%result;
 }
@@ -110,7 +110,7 @@ sub get_hub {
     my $ref = unpdl $self->hub_matrix;
     my %result;
     for my $v (sort $self->graph->vertices) {
-        $result{$v} = shift shift $ref;
+        $result{$v} = shift @{ shift @$ref };
     }
     return \%result;
 }
